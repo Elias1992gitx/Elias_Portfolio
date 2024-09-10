@@ -3,7 +3,7 @@ const { useState, createContext } = require("react");
 export const PortfolioContext = createContext();
 
 export const PortfolioProvider = ({ children }) => {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   return (

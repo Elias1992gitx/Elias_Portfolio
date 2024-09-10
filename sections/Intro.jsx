@@ -87,6 +87,8 @@ const Intro = () => {
                 {mounted ? (
                   <TypeAnimation
                     sequence={[
+                      'Software Engineer',
+                      1000,
                       'Full-Stack Developer',
                       1000,
                       'ML Enthusiast',
