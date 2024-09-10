@@ -33,12 +33,12 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="https://shiv-s-portfolio.vercel.app/images/welcome-screen.png"
+          content=""
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://shiv-s-portfolio.vercel.app"
+          content=""
         />
         <meta property="twitter:title" content="Elias Chane - Portfolio" />
         <meta
@@ -47,7 +47,7 @@ const Home = () => {
         />
         <meta
           property="twitter:image"
-          content="https://shiv-s-portfolio.vercel.app/images/welcome-screen.png"
+          content=""
         />
         <meta
           name="keywords"
