@@ -16,18 +16,33 @@ import {
   // SiKeras,
   // SiMediapipe,
 } from "react-icons/si";
-import { DiJavascript1, DiReact, DiMongodb, DiSass, DiPython } from "react-icons/di";
+import {
+  DiJavascript1,
+  DiReact,
+  DiMongodb,
+  DiSass,
+  DiPython,
+} from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCss3Alt,
+  FaAngular,
+  FaPhp,
+  FaShopify,
+  FaJava,
+} from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
-import { SiMicrosoftsqlserver, SiDotnet, SiCplusplus } from "react-icons/si";
-import tensorflow from "../public/images/tensorflow.png"
-import mediapipe from "../public/images/mediapipe.png"
-import keras from "../public/images/keras.png"
-
-
+import {
+  SiMicrosoftsqlserver as SiSqlServer,
+  SiDotnet,
+  SiCplusplus,
+} from "react-icons/si";
+import tensorflow from "../public/images/tensorflow.png";
+import mediapipe from "../public/images/mediapipe.png";
+import keras from "../public/images/keras.png";
 
 export const TechStackData = [
   {
@@ -43,15 +58,19 @@ export const TechStackData = [
       },
       {
         name: "NextJS",
-        icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />,
+        icon: (
+          <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
+        ),
       },
       {
         name: "JavaScript",
-        icon: <DiJavascript1 className="md:text-4xl text-2xl" color={"#f7df1e"} />,
+        icon: (
+          <DiJavascript1 className="md:text-4xl text-2xl" color={"#f7df1e"} />
+        ),
       },
       {
-         name: "Python",
-         icon: <DiPython className="md:text-4xl text-2xl" color={"#3776ab"} />, // Python updated
+        name: "Python",
+        icon: <DiPython className="md:text-4xl text-2xl" color={"#3776ab"} />, // Python updated
       },
       {
         name: "TypeScript",
@@ -67,7 +86,9 @@ export const TechStackData = [
       },
       {
         name: "Tailwind CSS",
-        icon: <SiTailwindcss className="md:text-4xl text-2xl" color="#06b6d4" />,
+        icon: (
+          <SiTailwindcss className="md:text-4xl text-2xl" color="#06b6d4" />
+        ),
       },
       {
         name: "HTML5",
@@ -83,7 +104,12 @@ export const TechStackData = [
       },
       {
         name: "SQLServer",
-        icon: <SiMicrosoftsqlserver className="md:text-4xl text-2xl" color="#cc2927" />,
+        icon: (
+          <SiMicrosoftsqlserver
+            className="md:text-4xl text-2xl"
+            color="#cc2927"
+          />
+        ),
       },
       {
         name: "MySQL",
@@ -130,11 +156,11 @@ export const TechStackData = [
       {
         name: "TensorFlow",
         icon: (
-           <img
+          <img
             src="/images/tensorflow.png"
             alt="TensorFlow"
             className="md:text-2xl text-xs"
-            style={{ maxWidth: '30px' }}
+            style={{ maxWidth: "30px" }}
           />
         ),
       },
@@ -144,8 +170,8 @@ export const TechStackData = [
           <img
             src="/images/mediapipe.png"
             alt="Mediapipe"
-             className="md:text-2xl text-xs"
-            style={{ maxWidth: '30px' }}
+            className="md:text-2xl text-xs"
+            style={{ maxWidth: "30px" }}
           />
         ),
       },
@@ -155,8 +181,8 @@ export const TechStackData = [
           <img
             src="/images/keras.png"
             alt="Keras"
-             className="md:text-2xl text-xs"
-            style={{ maxWidth: '30px' }}
+            className="md:text-2xl text-xs"
+            style={{ maxWidth: "30px" }}
           />
         ),
       },
